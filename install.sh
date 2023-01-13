@@ -89,5 +89,5 @@ while [ "$panel" == false ] && [ "$wings" == false ]; do
   esac
 done
 
-[ "$panel" == true ] && bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-panel.sh)
-[ "$wings" == true ] && bash <(curl -s https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master/install-wings.sh)
+[ "$panel" == true ] && bash <(curl -s https://raw.githubusercontent.com/SuperKali/pterodactyl-installer/master/install-panel.sh)
+[ "$wings" == true ] && bash <(curl -s https://raw.githubusercontent.com/SuperKali/pterodactyl-installer/master/install-wings.sh)
